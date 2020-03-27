@@ -1,0 +1,97 @@
+
+git 
+
+Need help? 1. git help <verb> or 2. git <verb> --help
+
+git config --global user.name "Anand"				# Basic Setting
+
+git config --global user.email "<mail address>"		# Basic Setting
+
+git config --list									# Check the list of global configurations enabled in your git
+
+git status											# checks the state of working directory and
+													# what has been going on with git add and git commit
+
+git init 											# Initialize a repo from existing code
+
+Create a sample.txt file any of your location and do a git init, you can see a .git file, means git started to track.
+So if you don't want to track your folder, delete the .git, thats it.
+
+git status
+
+clear
+
+ls
+
+git add <filename>
+
+git add -A 											# stages all changes
+
+git add . 											# stages new files and modifications, without deletions
+
+git add -u 											# stages modifications and deletions, without new files
+
+git rm --cached <filename> or 
+	git reset <filename> or							# remove from staging area
+	git reset
+
+git commit -m <" Message ">		 #m --> message
+
+git log
+
+git log --oneline				#Provides oneline logs for all the commits
+
+git diff						#Compare same file b/w WD & SA
+
+git diff --cached				#Compare same file b/w SA & Local Repo
+
+git help <command>
+
+############################################### DAY 1 #################################################
+
+############################################### DAY 2 #################################################
+
+ssh-keygen -t rsa -C "<mail address>" #t->what type of key? her it is rsa. #C->Comment
+
+ssh -T git@github.com #T-> Creates a Temporary session.. 
+
+git remote add origin https://github.com/ananddgithub/sample.git		#git remote add <remote-name> <url>
+
+git push origin master 			#git push [remote-name] [branch-name]
+
+
+=================================================================================================================
+Useful Links
+------------
+
+https://www.youtube.com/watch?v=HVsySz-h9r4
+
+https://www.w3docs.com/learn-git/introduction4.html
+
+https://learngitbranching.js.org/							# Git visualization
+
+
+
+
+=================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
