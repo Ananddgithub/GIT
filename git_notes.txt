@@ -37,7 +37,7 @@ git rm --cached <filename> or
 
 git commit -m <" Message ">		 #m --> message
 
-git log
+git log							#shows what happened in the background during commit
 
 git log --oneline				#Provides oneline logs for all the commits
 
