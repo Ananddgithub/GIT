@@ -11,7 +11,7 @@ add all:		You can also type "git add -A ."
 				so everything in and beneath it is added. 
 				The -A ensures even file deletions are included.
 
-git reset:		You can use git reset <filename> to remove a file or files from the staging area. 
+git reset:		You can use git reset <filename> to remove a file or files from the staging area..
 
 Staging Area:	A place where we can group files together before we "commit" them to Git.
 
