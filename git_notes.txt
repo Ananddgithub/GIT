@@ -9,9 +9,8 @@ git config --global user.email "<mail address>"		# Basic Setting
 
 git config --list									# Check the list of global configurations enabled in your git
 
-git status											# checks the state of working directory and
-													# what has been going on with git add and git commit
-
+git status											# checks the state of working directory and staging area.
+													
 git init 											# Initialize a repo from existing code
 
 Create a sample.txt file any of your location and do a git init, you can see a .git file, means git started to track.
@@ -29,17 +28,19 @@ git add -A 											# stages all changes
 
 git add . 											# stages new files and modifications, without deletions
 
-git add -u 											# stages modifications and deletions, without new files
-
 git rm --cached <filename> or 
 	git reset <filename> or							# remove from staging area
 	git reset
 
 git commit -m <" Message ">		 #m --> message
 
+git commit -a -m "New Changes" 						# Bypass staging area and directly commit (along with all the files in the SA [if any])
+
 git log							#shows what happened in the background during commit
 
 git log --oneline				#Provides oneline logs for all the commits
+
+git show 						#shows the recent change in a detailed manner
 
 git diff						#Compare same file b/w WD & SA
 
