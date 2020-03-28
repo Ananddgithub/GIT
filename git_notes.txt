@@ -1,7 +1,7 @@
 
 git 
 
-Need help? 1. git help <verb> or 2. git <verb> --help
+Need help? git <verb> --help
 
 git config --global user.name "Anand"				# Basic Setting
 
@@ -42,6 +42,10 @@ git log							#shows what happened in the background during commit
 
 git log --oneline				#Provides oneline logs for all the commits
 
+git log --graph
+
+git log --stat
+
 git show 						#shows the recent change in a detailed manner.
 
 git diff						#Compare same file b/w WD & SA
@@ -76,6 +80,8 @@ https://git-school.github.io/visualizing-git/#free			# Git visualization
 https://learngitbranching.js.org/							# Git visualization
 
 https://www.youtube.com/watch?v=Ie1EXmd9k0s					# Git stash
+
+https://prismoskills.appspot.com/lessons/Git/Chapter_01_-_Git_Introduction.jsp   		#Blog
 
 
 =================================================================================================================
