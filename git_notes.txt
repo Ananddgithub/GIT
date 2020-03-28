@@ -71,6 +71,8 @@ https://www.youtube.com/watch?v=HVsySz-h9r4
 
 https://www.w3docs.com/learn-git/introduction4.html
 
+https://git-school.github.io/visualizing-git/#free			# Git visualization 
+
 https://learngitbranching.js.org/							# Git visualization
 
 https://www.youtube.com/watch?v=Ie1EXmd9k0s					# Git stash
