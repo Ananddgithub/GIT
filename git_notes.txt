@@ -52,7 +52,7 @@ git diff						#Compare same file b/w WD & SA
 
 git diff --cached				#Compare same file b/w SA & Local Repo
 
-
+Note: Git will not track empty folder..
 
 ############################################### DAY 1 #################################################
 

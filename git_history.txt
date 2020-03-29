@@ -1,3 +1,4 @@
+Linus Torvals invented GIT in 2005
 GIT - VCS - version control system
  - to track changes in files / folders
  - to collaborate in teams
