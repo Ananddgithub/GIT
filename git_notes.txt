@@ -75,6 +75,8 @@ https://www.youtube.com/watch?v=HVsySz-h9r4
 
 https://www.w3docs.com/learn-git/introduction4.html
 
+https://youtu.be/lW8XcqtUvVE								# Git Snapshot VS Git delta based
+
 https://git-school.github.io/visualizing-git/#free			# Git visualization 
 
 https://learngitbranching.js.org/							# Git visualization
