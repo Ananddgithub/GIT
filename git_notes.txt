@@ -13,6 +13,8 @@ git status											# checks the state of working directory and staging area.
 													
 git init 											# Initialize a repo from existing code
 
+git clone <URL> <where to clone>					# Initialize a repo from remote repo
+
 Create a sample.txt file any of your location and do a git init, you can see a .git file, means git started to track.
 So if you don't want to track your folder, delete the .git, thats it.
 
