@@ -62,6 +62,14 @@ git branch <branch_name>		#creates a new branch in the local repositories
 
 git branch						#shows the list of branches available in local repositories
 
+git push -u origin <branch-name> # pushes the commits to the newly created remote master branch 
+
+git branch -d <branch-name>		#deletes a branch locally
+
+git push origin --delete <branch-name>	#delete branch in origin
+
+
+
 
 
 
