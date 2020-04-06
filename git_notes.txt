@@ -64,7 +64,11 @@ git push -u origin <branch-name> # pushes the commits to the newly created remot
 
 git branch -a					#View info about the remote repo and local repo
 
+git merge <branch-name>			#merges to delta with the master.. Note (goto master and then give this command)
+
 git branch -d <branch-name>		#deletes a branch locally
+
+git branch -D <branch-name>		#deletes a branch locally
 
 git push origin --delete <branch-name>	#delete branch in origin
 
