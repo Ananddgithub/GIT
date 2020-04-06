@@ -69,12 +69,6 @@ git branch -d <branch-name>		#deletes a branch locally
 git push origin --delete <branch-name>	#delete branch in origin
 
 
-
-
-
-
-
-
 ##################################################################################################
 
 ssh-keygen -t rsa -C "<mail address>" #t->what type of key? her it is rsa. #C->Comment
