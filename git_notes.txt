@@ -54,11 +54,20 @@ git diff						#Compare same file b/w WD & SA
 
 git diff --cached				#Compare same file b/w SA & Local Repo
 
-Note: Git will not track empty folder..
+git remote -v					#View info about the remote repo
 
-############################################### DAY 1 #################################################
+git branch -a					#View info about the remote repo
 
-############################################### DAY 2 #################################################
+git branch <branch_name>		#creates a new branch in the local repositories
+
+git branch						#shows the list of branches available in local repositories
+
+
+
+
+
+
+##################################################################################################
 
 ssh-keygen -t rsa -C "<mail address>" #t->what type of key? her it is rsa. #C->Comment
 
@@ -66,12 +75,12 @@ ssh -T git@github.com #T-> Creates a Temporary session..
 
 git remote add origin https://github.com/ananddgithub/sample.git		#git remote add <remote-name> <url>
 
-git push origin master 			#git push [remote-name] [branch-name]
+git push origin master 			#git push [remote_repo-name] [branch-name]
 
 
 =================================================================================================================
 
-
+Note: Git will not track empty folder..
 =================================================================================================================
 
 
